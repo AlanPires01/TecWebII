@@ -4,14 +4,32 @@ header{
 .img-prod-destaques{
   display:flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 }
 .img-prod{
-  width:340px;
-  height:340px;
+  width:100px;
+  height:100px;
 }
 h2{
   text-align: center;
   font-size: 1.5em;
   color: #333;
+}
+
+.conteudo-cards{
+  display:flex;
+  justify-content: space-around;
+}
+.star{
+  color:orange;
+  font-size:24px;
+}
+
+.card {
+  cursor: pointer; /* Mudar o cursor para um indicador de clique */
+  transition: transform 0.2s ease-in-out; /* Adicionar uma transição suave */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumentar ligeiramente o tamanho do card ao passar o mouse */
 }
