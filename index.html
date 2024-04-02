@@ -28,10 +28,10 @@
               <a class="nav-link" href="#dtqs">Destaques</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Clientes</a>
+              <a class="nav-link" href="#clientes">Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -52,13 +52,30 @@
             <p class="card-text">Mangá One Piece v.57</p>
             <h4>R$ 31,00</h4>
           </div>
+          <div class="resumo">
+            <span>
+              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
+               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
+               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
+               Luffy e Zoro demonstrando suas habilidades de combate.
+            </span>
+          </div>
         </div>
+       
         <div class="card" style="width: 18rem;">
           <img src="./assets/-S135-FW.webp"
             class="card-img-top img-fluid img-prod"  width="200" height="200" alt="...">
           <div class="card-body">
             <p class="card-text">Mangá One Piece v.507</p>
             <h4>R$ 40,00</h4>
+          </div>
+          <div class="resumo">
+            <p>
+              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
+               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
+               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
+               Luffy e Zoro demonstrando suas habilidades de combate.
+            </p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -68,6 +85,14 @@
             <p class="card-text">Mangá One Piece v.2</p>
             <h4>R$ 100,00</h4>
           </div>
+          <div class="resumo">
+            <p>
+              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
+               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
+               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
+               Luffy e Zoro demonstrando suas habilidades de combate.
+            </p>
+          </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img src="./assets/-S897-FWEBP.webp"
@@ -76,16 +101,23 @@
             <p class="card-text">Mangá One Piece v.102</p>
             <h4>R$ 100,00</h4>
           </div>
+          <div class="resumo">
+            <p>
+              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
+               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
+               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
+               Luffy e Zoro demonstrando suas habilidades de combate.
+            </p>
+          </div>
         </div>
       </section>
 
     </section>
   </main>
-  <section class="clientes">
+  <section id="clientes" class="clientes">
     <h2>Clientes</h2>
     <section class="conteudo-cards">
       <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-        <!-- <h5 class="card-header">Alan Pires</h5> -->
         <div class="card-body">
           <h5 class="card-title">Alan Pires</h5> 
           <div class="rating">
@@ -143,11 +175,51 @@
           <p class="card-text">A loja em si é ótima, porém o atendimento deixa a desejar, mas os produtos sempre chegam no prazo</p>
         </div>
       </div>
-    </section>
+  </section>
       
-    <footer>
-      <p>&copy; 2020 My Website</p>
-    </footer>
+  <footer id="contato" class="footer mt-auto py-3">
+    <div class="container">
+      <span>Buggy's Delivery - Venda de Mangás &copy; 2024</span>
+    </div>
+  </footer>
+
+  <!-- <script >document.querySelectorAll(".card").forEach(function(card) {
+    card.addEventListener("mouseenter", function() {
+        var resumo = card.querySelector(".resumo");
+        
+        // Oculta todos os resumos exceto o do card atual
+        document.querySelectorAll(".resumo").forEach(function(outroResumo) {
+            if (outroResumo !== resumo) {
+                outroResumo.style.display = "none";
+            }
+        });
+        
+        // Mostra o resumo do capítulo do card atual
+        resumo.style.display = "block";
+        
+        // Oculta todos os outros cards exceto o card atual
+        document.querySelectorAll(".card").forEach(function(outroCard) {
+            if (outroCard !== card) {
+                outroCard.style.display = "none";
+            }
+        });
+    });
+    
+    card.addEventListener("mouseleave", function() {
+        var resumo = card.querySelector(".resumo");
+        
+        // Mostra todos os cards
+        document.querySelectorAll(".card").forEach(function(outroCard) {
+            outroCard.style.display = "block";
+        });
+        
+        // Oculta todos os resumos
+        document.querySelectorAll(".resumo").forEach(function(outroResumo) {
+            outroResumo.style.display = "none";
+        });
+    });
+});
+</script> -->
 </body>
 
 </html>

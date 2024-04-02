@@ -33,3 +33,23 @@ h2{
 .card:hover {
   transform: scale(1.05); /* Aumentar ligeiramente o tamanho do card ao passar o mouse */
 }
+summary:after {
+    
+  content: "+";
+}
+details[open] summary:after {
+  content: "-";
+}
+
+/* #resumo{
+  display:none;
+} */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+footer span{
+  color:#fff;
+}

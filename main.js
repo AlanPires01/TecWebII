@@ -1,9 +1,12 @@
-document.querySelectorAll(".card").forEach(function(card){
-    card.addEventListener("click", function(){
+document.querySelectorAll(".card").forEach(function(card) {
+    card.addEventListener("click", function() {
         var resumo = document.getElementById("resumo");
-        document.querySelectorAll(".card").forEach(function(card){
-            card.computedStyleMap.display="none";
-        })
-    })
-    resumo.style.display="block";
-})
+        
+        // Oculta todos os produtos
+        document.querySelectorAll(".card").forEach(function(card) {
+            card.style.display = "none";
+        });
+        
+        resumo.style.display = "block"; // Mostra o resumo do capítulo
+    });
+});
