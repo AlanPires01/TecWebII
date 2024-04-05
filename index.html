@@ -10,28 +10,31 @@
   <title>Home</title>
 </head>
 
-<body>
+<body class="bg-primary-subtle">
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> Buggy's Delivery</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg align-middle">
+      <div class="row align-middle container-fluid justify-content-between">
+        <div class="col">
+          <a class="navbar-brand text-light text-center" href="#"> Buggy's Delivery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+        
+        <div class=" col collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light text-end align-middle" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#dtqs">Destaques</a>
+              <a class="nav-link text-light text-end align-middle" href="#dtqs">Destaques</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#clientes">Clientes</a>
+              <a class="nav-link text-light text-end align-middle" href="#clientes">Clientes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contato">Contato</a>
+              <a class="nav-link text-light text-end  align-middle" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -42,82 +45,96 @@
     <section class="img-banner">
       <img src="./assets/One-Piece-Buggy-Cross-Guild-Mihawk-Crocodile-featured.avif" class="img-fluid" alt="..." >
     </section>
-    <section id="dtqs" class="destaques">
-      <h2>Produtos em destaque</h2>
+    <section id="dtqs" class="destaques ">
+      <h2 class="mt-4 mb-4">Produtos em destaque</h2>
       <section class="img-prod-destaques">
-        <div class="card" style="width: 18rem;">
+        <div class="card text-bg-info bg-body-tertiary rounded" style="width: 18rem;">
           <img src="./assets/-S135.webp"
             class="card-img-top img-fluid img-prod" width="200" height="200" alt="...">
           <div class="card-body">
             <p class="card-text">Mangá One Piece v.57</p>
             <h4>R$ 31,00</h4>
+            <div class="resumo">
+              <details>
+                <summary>Sinopse</summary>
+                <p> A Imperatriz dos Mares, Big Mom, lança um ataque devastador contra a Ilha
+                  dos Tritões, buscando vingança contra Luffy e sua tripulação. Neste capítulo
+                    tenso, alianças são testadas e batalhas épicas são travadas enquanto os 
+                    Chapéus de Palha lutam para proteger seus amigos e deter a ira de Big Mom.
+                    O destino das ilhas é incerto enquanto o caos se espalha pelos mares.</p>
+              </details>
+            </div>
+            <button type="button" class="btn btn-warning">Comprar</button>
           </div>
-          <div class="resumo">
-            <span>
-              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
-               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
-               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
-               Luffy e Zoro demonstrando suas habilidades de combate.
-            </span>
-          </div>
+          
+
         </div>
        
-        <div class="card" style="width: 18rem;">
+        <div class="card text-bg-info bg-body-tertiary rounded" style="width: 18rem;">
           <img src="./assets/-S135-FW.webp"
             class="card-img-top img-fluid img-prod"  width="200" height="200" alt="...">
           <div class="card-body">
             <p class="card-text">Mangá One Piece v.507</p>
             <h4>R$ 40,00</h4>
-          </div>
-          <div class="resumo">
-            <p>
-              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
-               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
-               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
-               Luffy e Zoro demonstrando suas habilidades de combate.
-            </p>
+            <div class="resumo">
+              <details>
+                <summary>Sinopse</summary>
+                <p> Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
+                  enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
+                  épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
+                  Luffy e Zoro demonstrando suas habilidades de combate.</p>
+              </details>
+            </div>
+            <button type="button" class="btn btn-warning">Comprar</button>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+
+        <div class="card text-bg-info bg-body-tertiary rounded" style="width: 18rem;">
           <img src="./assets/-S135-FWEBP.webp"
             class="card-img-top img-fluid img-prod" width="200" height="200" alt="...">
           <div class="card-body">
             <p class="card-text">Mangá One Piece v.2</p>
             <h4>R$ 100,00</h4>
-          </div>
-          <div class="resumo">
-            <p>
-              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
-               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
-               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
-               Luffy e Zoro demonstrando suas habilidades de combate.
-            </p>
+            <div class="resumo">
+              <details>
+                <summary>Sinopse</summary>
+                <p>Gol D. Roger, o lendário Rei dos Piratas, fez um anúncio chocante antes de sua execução.
+                  Neste capítulo emocionante, os segredos do Void Century são revelados, abalando as fundações 
+                  do mundo. Enquanto as facções rivais lutam pelo poder, Luffy e sua tripulação embarcam em uma
+                  jornada para desvendar os mistérios do passado e mudar o curso da história.</p>
+              </details>
+            </div>
+            <button type="button" class="btn btn-warning">Comprar</button>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
+        <div class="card text-bg-info bg-body-tertiary rounded " style="width: 18rem;">
           <img src="./assets/-S897-FWEBP.webp"
             class="card-img-top img-fluid img-prod" width="100" height="100" alt="...">
           <div class="card-body">
             <p class="card-text">Mangá One Piece v.102</p>
             <h4>R$ 100,00</h4>
-          </div>
-          <div class="resumo">
-            <p>
-              Neste capítulo, Luffy e sua tripulação, os Chapéus de Palha,
-               enfrentam a Marinha liderada pelo Almirante Don Krieg. Uma batalha 
-               épica ocorre entre os Chapéus de Palha e os subordinados de Krieg, com 
-               Luffy e Zoro demonstrando suas habilidades de combate.
-            </p>
+            <div class="resumo">
+              <details>
+                <summary>Sinopse</summary>
+                <p>Luffy e sua tripulação finalmente chegam à misteriosa ilha de Wano, onde
+                  são recebidos por samurais e ninjas. Neste capítulo emocionante, segredos 
+                  antigos e rivalidades ressurgem enquanto o grupo se envolve nas intrigas 
+                  políticas e na luta pela liberdade do povo de Wano. Uma aventura repleta 
+                    ação e reviravoltas aguarda os Chapéus de Palha nesta terra proibida.</p>
+              </details>
+            </div>
+            <button type="button" class="btn btn-warning">Comprar</button>
           </div>
         </div>
+          
       </section>
 
     </section>
   </main>
   <section id="clientes" class="clientes">
-    <h2>Clientes</h2>
+    <h2 class="mt-4 mb-4">Clientes</h2>
     <section class="conteudo-cards">
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+      <div class="card text-bg-info mb-3 shadow-sm  p-3 mb-5 bg-body-tertiary rounded" style="max-width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Alan Pires</h5> 
           <div class="rating">
@@ -131,7 +148,7 @@
         </div>
       </div>
 
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+      <div class="card text-bg-info mb-3 shadow-sm  p-3 mb-5 bg-body-tertiary rounded" style="max-width: 18rem;">
         <!-- <h5 class="card-header">Iara Amâncio</h5> -->
         <div class="card-body">
           <h5 class="card-title">Iara Amâncio</h5> 
@@ -146,7 +163,7 @@
         </div>
       </div>
       
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+      <div class="card text-bg-info mb-3 shadow-sm  p-3 mb-5 bg-body-tertiary rounded" style="max-width: 18rem;">
         <!-- <h5 class="card-header">Iara Amâncio</h5> -->
         <div class="card-body">
           <h5 class="card-title">Isaac Daniel</h5> 
@@ -161,7 +178,7 @@
         </div>
       </div>
 
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+      <div class="card text-bg-info mb-3 shadow-sm  p-3 mb-5 bg-body-tertiary rounded" style="max-width: 18rem;">
       
         <div class="card-body">
           <h5 class="card-title">Joaquim Walisson</h5> 

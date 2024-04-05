@@ -1,5 +1,16 @@
 header{
-  background-color:brown;
+  background-color:#711528;
+  width: 100vw;
+  height: 15vh;
+}
+.nav-link{
+  text-align:center;
+}
+body{
+  background-color: #061D2D;
+}
+.navbar-collapse{
+  margin-left: 100px;
 }
 .img-prod-destaques{
   display:flex;
